@@ -1,32 +1,55 @@
-  body {
-   padding-left: 11em;
-   font-family: Georgia, "Times New Roman",
-          Times, serif;
-		  color: purple;
-    background-color: #d8da3d }
-	 ul.navbar {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-	position: absolute;
-    top: 2em;
-    left: 1em;
-    width: 10em }
-	h1 {
-    font-family: Helvetica, Geneva, Arial,
-          SunSans-Regular, sans-serif }
-		ul.navbar li {
-    background: white;
-    margin: 0.5em 0;
-    padding: 0.3em;
-    border-right: 1em solid black }
-  ul.navbar a {
-    text-decoration: none }
-  a:link {
-    color: blue }
-  a:visited {
-    color: purple }
-	address {
-    margin-top: 1em;
-    padding-top: 1em;
-    border-top: thin dotted }
+/* GENERAL */
+body {
+  padding-left: 11em;
+  font-family: Georgia, "Times New Roman",
+        Times, serif;
+    color: purple;
+  background-color: #f5f5f2 }
+  ul.navbar {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 1em;
+  left: 1em;
+  width: 10em }
+
+  h1 {
+  font-family: Helvetica, Geneva, Arial,
+        SunSans-Regular, sans-serif }
+
+
+/* NAVIGATION */
+ul.navbar li {
+  background: white;
+  margin: 0.5em 0;
+  padding: 0.3em;
+  border-right: 1em solid black;
+  border-radius: 0.2em;
+}
+
+ul.navbar li.active {
+  border-right: 1em solid rgb(225, 135, 62);
+}
+
+ul.navbar a {
+  text-decoration: none 
+}
+
+a:link {
+  color: blue 
+}
+
+a:visited {
+  color: purple 
+}
+
+ul li:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+address {
+  margin-top: 1em;
+  padding-top: 1em;
+  border-top: thin dotted 
+}
